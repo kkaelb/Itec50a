@@ -1,0 +1,131 @@
+ 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: #f4e3c1;
+  min-height: 100vh;
+  position: relative;
+  background-color: #F5EFE6
+}
+
+.text_logo {
+  position: fixed;
+  top: 25px;
+  left: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #F8C8DC;
+  font-family: 'Times New Roman', Times, serif;
+  z-index: 12;
+}
+
+/* THIS IS FOR THE NAVIGATION */
+nav {
+  background:#000053;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 30px 0;
+  z-index: 9;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 30px;
+  padding-left: 140px;
+  max-width: 2000px;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin-left: 250px;
+  padding-right: 40px;
+}
+
+nav ul li a {
+  color: 	white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #6495ED;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 55px;
+  padding-top: 130px;
+  letter-spacing: 2px;
+  color: #000000;
+  margin: 20px;
+  text-align: center;
+}
+
+/* THIS IS FOR THE CONTAINERS OF THE DEVELOPERS */
+.dev-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.dev-card {
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #6495ED;
+  border: 2px solid #000053;
+}
+
+.dev-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+.dev-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dev-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.dev-card p {
+  margin: 0;
+  font-size: 1rem;
+  color:black;
+}
+
+footer {
+  background-color:#000053;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 210px;
+}

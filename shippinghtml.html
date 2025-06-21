@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shipping & Payment</title>
+  <link rel="stylesheet" href="buynow.css" />
+</head>
+<body>
+
+  <h1>Shipping & Payment Information</h1>
+
+  <div class="form-container">
+    <form action="go back.html" method="GET">
+
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required />
+
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" required />
+
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" required />
+
+      <label for="state">State/Province</label>
+      <input type="text" id="state" name="state" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="number" id="phone" name="phone" required />
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" required />
+
+      <p><strong>Payment Method</strong></p>
+      <select name="paymentMethod" id="paymentMethod" required>
+      <option value="" disabled selected>Select a payment method</option>
+      <option value="cash_on_delivery">Cash on Delivery</option>
+      <option value="online_payment">Online Payment</option>
+      <option value="credit_card">Credit/Debit Card</option>
+      <option value="mobile_payment">Mobile Payment</option>
+    </select>
+
+      <button type="submit" class="buy-button" a href="goback.html">All done</button>
+
+    </form>
+  </div>
+
+  
+</body>
+</html>
+
